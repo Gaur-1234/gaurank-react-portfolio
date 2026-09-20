@@ -1,49 +1,49 @@
 function Projects() {
-   const projects = [
-    {
-        number: "01",
-        title: "Scholar Hub",
-        description:
-            "An AI-powered career and resume analysis platform with user and admin dashboards, authentication, resume analysis, job recommendations and job tracking.",
-        technologies: [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "Node.js",
-            "Express.js",
-            "MongoDB",
-            "JWT",
-        ],
-        github: "https://github.com/Gaur-1234/scholarhub",
-        live: "https://scholarhub-one.vercel.app/",
-    },
-    {
-        number: "02",
-        title: "ATS",
-        description:
-            "An Applicant Tracking System designed to organize and manage applicant and recruitment-related workflows through a web-based platform.",
-        technologies: [
-            "HTML",
-            "CSS",
-            "JavaScript",
-        ],
-        github: "https://github.com/Gaur-1234/ATS",
-        live: null,
-    },
-    {
-        number: "03",
-        title: "Palworld",
-        description:
-            "A Palworld-inspired gaming website featuring an immersive interface, animated sections, gameplay-focused content and interactive web elements.",
-        technologies: [
-            "HTML",
-            "CSS",
-            "JavaScript",
-        ],
-        github: "https://github.com/Gaur-1234/Palworld-",
-        live: null,
-    },
-];
+    const projects = [
+        {
+            number: "01",
+            title: "Scholar Hub",
+            description:
+                "An AI-powered career and resume analysis platform with user and admin dashboards, authentication, resume analysis, job recommendations and job tracking.",
+            technologies: [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "JWT",
+            ],
+            github: "https://github.com/Gaur-1234/scholarhub",
+            live: "https://scholarhub-one.vercel.app/",
+        },
+        {
+            number: "02",
+            title: "ATS",
+            description:
+                "An Applicant Tracking System designed to organize and manage applicant and recruitment-related workflows through a web-based platform.",
+            technologies: [
+                "HTML",
+                "CSS",
+                "JavaScript",
+            ],
+            github: "https://github.com/Gaur-1234/ATS",
+            live: "https://ats-nine-flame.vercel.app/",
+        },
+        {
+            number: "03",
+            title: "Palworld",
+            description:
+                "A Palworld-inspired gaming website featuring an immersive interface, animated sections, gameplay-focused content and interactive web elements.",
+            technologies: [
+                "HTML",
+                "CSS",
+                "JavaScript",
+            ],
+            github: "https://github.com/Gaur-1234/Palworld-",
+            live: "https://palworld-dun.vercel.app/",
+        },
+    ];
 
     return (
         <section id="projects" className="section projects-section">
@@ -78,28 +78,28 @@ function Projects() {
                                 </span>
 
                                 <div className="project-actions">
-    <a
-        href={project.github}
-        className="project-link"
-        target="_blank"
-        rel="noreferrer"
-        aria-label={`${project.title} GitHub`}
-    >
-        GitHub ↗
-    </a>
+                                    <a
+                                        href={project.github}
+                                        className="project-link"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        aria-label={`${project.title} GitHub`}
+                                    >
+                                        GitHub ↗
+                                    </a>
 
-    {project.live && (
-        <a
-            href={project.live}
-            className="project-link project-live"
-            target="_blank"
-            rel="noreferrer"
-            aria-label={`${project.title} live demo`}
-        >
-            Live ↗
-        </a>
-    )}
-</div>
+                                    {project.live && (
+                                        <a
+                                            href={project.live}
+                                            className="project-link project-live"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                            aria-label={`${project.title} live demo`}
+                                        >
+                                            Live ↗
+                                        </a>
+                                    )}
+                                </div>
                             </div>
 
                             <h3>{project.title}</h3>
