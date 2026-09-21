@@ -18,18 +18,20 @@ function Projects() {
             live: "https://scholarhub-one.vercel.app/",
         },
         {
-            number: "02",
-            title: "ATS",
-            description:
-                "An Applicant Tracking System designed to organize and manage applicant and recruitment-related workflows through a web-based platform.",
-            technologies: [
-                "HTML",
-                "CSS",
-                "JavaScript",
-            ],
-            github: "https://github.com/Gaur-1234/ATS",
-            live: "https://ats-nine-flame.vercel.app/",
-        },
+    number: "02",
+    title: "CalcX",
+    description:
+        "A modern responsive calculator with arithmetic operations, keyboard support, calculation history and persistent local storage.",
+    technologies: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "CSS Grid",
+        "LocalStorage",
+    ],
+    github: "https://github.com/Gaur-1234/CODSOFT_TASK3_CALCULATOR",
+    live: "https://codsoft-task-3-calculator-delta.vercel.app/",
+},
         {
             number: "03",
             title: "Palworld",
