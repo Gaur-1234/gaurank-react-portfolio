@@ -34,16 +34,16 @@ function Projects() {
 },
         {
             number: "03",
-            title: "Palworld",
+            title: "Job Board",
             description:
-                "A Palworld-inspired gaming website featuring an immersive interface, animated sections, gameplay-focused content and interactive web elements.",
+                "A web-based job board platform designed to help users explore job opportunities through a clean and responsive interface.",
             technologies: [
                 "HTML",
                 "CSS",
                 "JavaScript",
             ],
-            github: "https://github.com/Gaur-1234/Palworld-",
-            live: "https://palworld-dun.vercel.app/",
+            github: "https://github.com/Gaur-1234/CODSOFT_TASK4",
+            live: "https://job-board-flax-mu.vercel.app/",
         },
     ];
 
